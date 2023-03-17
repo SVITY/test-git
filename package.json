@@ -7,10 +7,9 @@
   "license": "MIT",
   "scripts": {
     "prebuild": "rm -fr dist && mkdir dist",
-    "build": "echo test-git"
+    "build": "echo 'Run Build'"
   },
   "devDependencies": {
-    "test-git-dep": "git+https://github.com/SVITY/test-git-dep",
-    "test-git-dep-2": "file:../test-git-dep"
+    "test-git-dep": "git+https://github.com/SVITY/test-git-dep"
   }
 }
